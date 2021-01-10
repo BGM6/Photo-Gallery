@@ -100,16 +100,3 @@ function changeImg(changeDirection) {
         prevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
