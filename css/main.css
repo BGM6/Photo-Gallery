@@ -1,0 +1,98 @@
+:root {
+    --primary--color: #ccc;
+    --dark--color: #333;
+    --light--colro: #fff;
+    --hover--color: mediumvioletred;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Navbar*/
+.wrapper-main {
+    /*background: var(--primary--color);*/
+    align-items: center;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 140px;
+}
+
+.wrapper-main ul {
+    display: flex;
+}
+
+.wrapper-main a {
+    color: var(--dark--color);
+    font-size: 1.6rem;
+    padding: 10px 5px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.wrapper-main a:hover {
+    color: var(--hover--color);
+}
+
+/*Icons*/
+
+.fa-camera-retro {
+    color: var(--hover--color);
+}
+/*Footer*/
+.footer {
+    /*background: var(--primary--color);*/
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.footer a i {
+    margin-top: 0.5rem;
+}
+
+.footer a {
+    color: var(--dark--color);
+}
+
+.footer a:hover {
+    color: var(--hover--color);
+}
+
+.footer .social > * {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
